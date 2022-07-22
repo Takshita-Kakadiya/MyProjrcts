@@ -1,0 +1,70 @@
+#translate,
+#rotate,
+#rotate3d,
+#skew,
+#scale,
+#opacity,
+#rgba,
+#boxshadow,
+#textshadow,
+#borderradious,
+#overflow {
+    width: 200px;
+    height: 200px;
+    border: 10px;
+    font-size: 25px;
+    margin: 5% 10% 20% 5%;
+    background-color: rgb(38, 105, 38);
+}
+#translate:hover{
+    background-color: lightskyblue;
+    transition-duration: 3s;
+    transform: translate(300px, 300px);
+}
+#rotate:hover{
+    background-color: lightskyblue;
+    transition-duration: 4s;
+    transform: rotate(360deg);
+}
+#rotate3d:hover{
+    background-color: lightskyblue;
+    transition-duration: 2s;
+    transform: rotate3d(1,1,1,360deg);
+}
+#skew:hover{
+    background-color: lightskyblue;
+    transition-duration: 1.5s;
+    transform: skew(35deg);
+}
+#scale:hover{
+    background-color: lightskyblue;
+    transition-duration: 2s;
+    transform: scale(1.5, 0.8);
+}
+#opacity:hover{
+    transition-duration: 2s;
+    opacity: 0.3;
+}
+#rgba:hover{
+    background-color: lightskyblue;
+    transition-duration: 3s;
+}
+#boxshadow:hover{
+    background-color: lightskyblue;
+    transition-duration: 2s;
+    box-shadow: 15px 15px 15px lightpink;
+}
+#textshadow:hover{
+    transition-duration: 3s;
+    text-shadow: 6px 2px 3px lightskyblue;
+}
+#borderradious:hover{
+    background-color: lightskyblue;
+    transition-duration: 4s;
+    border-radius: 30px;
+    text-align: center;
+}
+#overflow{
+overflow: auto;
+}
+
